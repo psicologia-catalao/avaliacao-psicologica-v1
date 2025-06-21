@@ -1,7 +1,3 @@
-// ======================================================================
-// ARQUIVO 5: /plataforma-psicologia/src/App.js
-// (Copie e cole este conteúdo no arquivo App.js, dentro da pasta src)
-// ======================================================================
 import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
